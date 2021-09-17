@@ -1,53 +1,75 @@
-body {
-  margin: 0;
-  padding: 0;
-
-  font-size: 20px;
-  line-height: 1.2;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #ffffff;
-
-  background-color: #312785;
-  background-image:
-    repeating-linear-gradient(
-      150deg,
-      rgba(255, 255, 255, 0.06),
-      rgba(255, 255, 255, 0.06) 1px,
-      transparent 0,
-      transparent 41px),
-    repeating-linear-gradient(
-      -150deg,
-      rgba(255, 255, 255, 0.06),
-      rgba(255, 255, 255, 0.06) 1px,
-      transparent 0,
-      transparent 41px);
-
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+.navbar-brand{
+    font-weight: bolder;
 }
 
-main {
-  padding: 20px 20px 120px 20px;
-
-  text-align: center;
+.nav-item{
+    padding-left: 1rem;
 }
 
-h1 {
-  margin: 0;
+.navbar{
+    background-color: rgb(224, 169, 169) ;
+} 
 
-  font-weight: normal;
-  letter-spacing: -1px;
+.footer{
+    background-color: rgb(221, 187, 187) ;
 }
 
-p {
-  margin: 20px 0;
+.form-control{
+    background-color: rgb(224, 186, 186) ;
+    border: 1px solid rgba(255, 255, 255, .5);;
+    border-radius: 0;
+    opacity: 1;
 }
 
-a:link, a:visited {
-  color: #ffffff;
-  text-decoration: underline
+.form-control .form-inline{
+    width: 220px;
 }
 
-a:hover {
-  text-decoration: none
+
+.form-control:focus{
+    color:black;
+    background-color: #fff;
+    border-color:#a75470;
+    box-shadow:none;
+}
+
+.form-control::placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+
+.btn {
+    color: #fff;
+    background-color: #a56177;
+    border-color:rgb(224, 186, 186);
+    border-radius: 0;
+    height: 38px;
+  }
+
+.btn:hover,.btn:focus  {
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem #a56177;
+  }
+
+.dropdown-menu{
+    padding: 0;
+    border-radius: 0;
+    background-color: rgb(223, 197, 197); 
+
+} 
+
+.dropdown-item{
+    color: rgba(255, 255, 255, .5);
+}
+
+.dropdown-item:hover{
+background-color: rgb(224, 186, 186);
+color:white;
+}
+
+.carousel-caption,h3{
+    font-weight: lighter;
+}
+
+.footer{
+    font-size: x-small;
 }
